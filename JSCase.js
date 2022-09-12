@@ -1,4 +1,4 @@
-function oddOrEven(num) {
+function oddishOrEvenish(num) {
     let Numb = num.toString()
     let arr = Numb.split("")
     let intArr = []
@@ -13,6 +13,6 @@ function oddOrEven(num) {
 }
 
 
-console.log(oddOrEven(43))
-console.log(oddOrEven(373))
-console.log(oddOrEven(4433))
+console.log(oddishOrEvenish(43))
+console.log(oddishOrEvenish(373))
+console.log(oddishOrEvenish(4433))
